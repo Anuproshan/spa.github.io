@@ -1,13 +1,56 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Limelight');
+:root{
+	--body-font:'Roboto', sans-serif;
+	--heading-font:'Limelight', cursive;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+box-sizing:border-box;
+margin: 0;
+padding: 0;
+}
+a,
+a:hover,
+a:focus {
+text-decoration: none;
+outline: none;
+color: #fff;
+}
+*:focus,
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+outline: none;
+outline-width: 0;
+}
+.form-control:focus {
+border-color: transparent !important;
+box-shadow: none!important;
+outline: 0 none!important;
+}
+hr {
+box-sizing: content-box;
+height: 0;
+overflow: visible;
+}
+ul,
+li {
+list-style: none;
+}
+span {
+display: inline-block;
+}
+html, body {
+font-size: 16px;
+color: rgb(80, 80, 80);
+font-family:var(--body-font);
+vertical-align: baseline;
+line-height: 1.5;
+font-weight: 400;
+overflow-x: hidden;
+position: relative;
+z-index: 0;
+scroll-behavior: smooth;
 }

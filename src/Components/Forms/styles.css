@@ -1,0 +1,126 @@
+.formsBody {
+width: 100%;
+clear: both;
+position: relative;
+z-index: 0;
+}
+.formsBody::before {
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+width: 100%;
+height: 100%;
+z-index: -1;
+background: rgba(0, 0, 0, 0) linear-gradient(to right, rgba(19, 19, 19, 0.81) 25%, rgba(76, 76, 76, 0.16) 50%, rgba(19, 19, 19, 0.81) 75%) repeat scroll 0 0 !important;}
+.form-wrap {
+padding: 70px 0 0 0;
+}
+.header-form {
+padding: 40px 0;
+}
+.header-form h1 {
+color: rgb(255, 255, 255);
+font-size: 60px;
+font-weight: 400;
+margin-bottom: 25px;
+font-family: 'Limelight', cursive;
+}
+.header-form .lead {
+font: 700 22px/30px 'Josefin Sans', sans-serif;
+}
+.header-form .lead p {
+color: rgb(255, 255, 255);
+}
+.header-form h1 span {
+color: rgb(168, 5, 5);
+font-weight: 700;
+}
+.header-appointment {
+/* background: rgb(255, 255, 255); */
+background: url('../../assets/adventure-bg.jpg');
+padding: 20px;
+margin-top: 0;
+margin-bottom: -70px;
+box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.07);
+}
+.main-heading {
+font-size: 30px;
+color: rgb(168, 5, 5);
+font-family:var(--heading-font);
+text-align: center;
+margin-bottom: 40px;
+text-transform: capitalize;
+font-weight: 600;
+line-height: 35px;
+}
+.main-heading span {
+position: relative;
+display: block;
+font-size: 24px;
+color: rgb(168, 5, 5);
+max-width: 40px;
+margin: 25px auto 0;
+}
+.main-heading span:before {
+left: -55px;
+}
+.main-heading span:before, .main-heading span:after {
+position: absolute;
+content: "";
+width: 50px;
+top: 50%;
+border-bottom: 1px solid rgb(168, 5, 5);
+}
+.main-heading span:after {
+right: -55px;
+}
+.main-heading span:before, .main-heading span:after {
+position: absolute;
+content: "";
+width: 50px;
+top: 50%;
+border-bottom: 1px solid rgb(168, 5, 5);
+}
+#contact_form .form-control {
+background: rgb(241, 241, 241);
+border: none;
+box-shadow: none;
+border-radius: 2px;
+padding: 10px 15px;
+height: auto;
+color: rgb(68, 68, 68);
+margin: 10px 0;
+border: 1px solid rgb(168, 5, 5);
+}
+#name, #email, #subject, #package, #phone, #address, #message {
+width: 100%;
+margin-bottom: 1.5em;
+padding: 0.5em;
+border-radius: 3px;
+border: 1px solid rgb(168, 5, 5);
+}
+#contact_form .form-btn {
+display: block;
+background: rgb(168, 5, 5);
+color: rgb(255, 255, 255);
+padding: 10px 18px;
+font-size: 18px;
+font-weight: 600;
+border: none;
+margin: 8px 0 0 0;
+text-transform: capitalize;
+font-family: var(--heading-font);
+border-radius: 3px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-transition: all 0.15s linear;
+-moz-transition: all 0.15s linear;
+-o-transition: all 0.15s linear;
+transition: all 0.15s linear;
+    width: 100%;
+}
+form#contact_form {
+    width: 100%;
+}

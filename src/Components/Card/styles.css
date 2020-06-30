@@ -1,0 +1,21 @@
+.headings {}
+.headings h1 {font-family: var(--heading-font);color: rgb(168, 5, 5);}
+.headings span { position: relative; display: block; font-size: 24px; color: rgb(168, 5, 5); max-width: 40px; margin: 25px auto 0;}
+.headings span::before{position: absolute;content: "";width: 50px;top: 50%;border-bottom: 1px solid rgb(168, 5, 5);}
+.headings span::after{position: absolute;content: "";width: 50px;top: 50%;border-bottom: 1px solid rgb(168, 5, 5);}
+.headings span::after{right: -55px;}
+.headings span::before {left: -55px;}
+.iBtn {position: relative; z-index: 0;  overflow: hidden; background: var(--orange); box-shadow: 0 8px 6px -6px black;color: rgb(240, 248, 255);}
+.iBtn::before {content: '';position: absolute;bottom: 0;left: 0;width: 100%;height: 100%;background: rgb(168, 5, 5);transform: rotate(-90deg);transform-origin: bottom left;z-index: -1;transition: 0.5s;}
+.iBtn:hover:before {transform: rotate(0deg);}
+.card-title {margin-bottom: .75rem; font-family: var(--heading-font);font-size: 18px;color: rgb(168, 5, 5);}
+p.card-text {text-align: justify;}
+.iBtn {
+position: relative;
+z-index: 0;
+overflow: hidden;
+background: rgb(168, 5, 5);
+box-shadow: 0 8px 6px -6px black;
+color: rgb(240, 248, 255);
+border-radius: 0;
+}

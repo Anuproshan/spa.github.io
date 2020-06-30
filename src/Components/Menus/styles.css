@@ -1,0 +1,93 @@
+header {
+width: 100%;
+box-shadow: 0 8px 6px -6px black;
+background:url('../../assets/adventure-bg.jpg');
+}
+.bg-light {
+    background-color: rgba(248, 249, 250, 0)!important;
+}
+.navbar-brand .img-fluid {
+width: 100%;
+height: auto;
+outline: none;
+border-style: none;
+vertical-align: middle;
+max-width: 50%;
+}
+.navbar-nav a {
+padding: 1.5rem;
+color: rgb(0, 45, 60);
+display: block;
+text-decoration: none!important;
+cursor: pointer;
+font-weight: 700;
+}
+.navbar-nav a:hover {
+color: rgb(255, 87, 34);
+}
+.navbar-nav .dropdown-menu a {
+display: block;
+font-size: 12px;
+text-transform: capitalize;
+font-weight: 700;
+text-decoration: none!important;
+cursor: pointer;
+padding: 0.5rem;
+}
+.dropdown-menu {
+position: absolute;
+top: 110%!important;
+left: 0;
+z-index: 1000!important;
+display: none;
+float: left!important;
+min-width: 10rem!important;
+padding: .5rem 0!important;
+margin: .125rem 0 0;
+font-size: 1rem!important;
+color: rgb(33, 37, 41);
+text-align: left;
+list-style: none!important;
+background: radial-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+background-clip: padding-box!important;
+border: 3px solid rgba(0,0,0,.15)!important;
+border-radius: 0!important;
+}
+@media screen and (max-width:767px) {
+.navbar-nav .nav-link {
+padding-right: 0.5rem!important;
+padding-left: 0.5rem!important;
+color: rgb(240, 248, 255)!important;
+}
+.dropdown-menu.show {
+width: 100%;
+background: rgb(96, 125, 139);
+}
+.navbar-collapse {
+flex-basis: 100%;
+flex-grow: 1;
+align-items: center;
+background: rgb(69, 90, 100);
+}
+.navbar-brand {
+display: inline-block;
+padding-top: .3125rem;
+padding-bottom: .3125rem;
+margin-right: 0;
+font-size: 1.25rem;
+line-height: inherit;
+white-space: nowrap;
+width: 100%;
+max-width: 50%;
+}
+.navbar-nav a {
+padding: 0.5rem;
+color: rgb(249, 249, 249);
+display: block;
+text-decoration: none!important;
+cursor: pointer;
+font-weight: 500;
+}
+}
+@media screen and (min-width:768px) {
+}

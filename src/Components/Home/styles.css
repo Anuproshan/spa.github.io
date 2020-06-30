@@ -1,0 +1,239 @@
+.home_section_one {
+width: 100%;
+background:url('../../assets/adventure-bg.jpg');
+}
+.textBody {}
+.textBody h1 {
+font-size: 48px;
+text-transform: capitalize;
+color: rgb(0, 45, 60);
+font-family: var(--heading-font);
+}
+.textBody h1 span {
+color: rgb(168, 5, 5);
+font-weight: 600;
+text-transform: capitalize;
+}
+.service_section {
+width: 100%;
+background:url('../../assets/adventure-bg.jpg');
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+background:rgb(168, 5, 5)!important;
+color: inherit;
+border: none;
+padding: 0!important;
+width: 50px;
+height: 50px;
+color: rgb(255, 255, 255);
+border-radius: 100%;
+border: none!important;
+}
+button span {color: aliceblue;}
+.monthly-offer {
+width: 100%;
+background:url('../../assets/slider-1.jpg') no-repeat fixed center center / cover;
+position: relative;
+z-index: 0;
+}
+.monthly-offer::before{
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+width: 100%;
+height: 100%;
+background:linear-gradient(45deg, rgb(255, 244, 244), rgba(0, 0, 0, 0));
+z-index: -1;
+}
+img.offers_pics {
+margin-top: 40px;
+border: 4px solid rgb(239, 238, 235);
+border-radius: 100%;
+}
+.monthly_offer_text {}
+.monthly_offer_text h2 {
+color: rgb(0, 0, 0);
+font-family: var(--heading-font);
+}
+.monthly_offer_text h2 span {
+color: rgb(168, 5, 5);
+}
+.monthly_offer_text h3 {
+color: rgb(220, 53, 69);
+}
+.monthly_offer_text p {
+color: rgb(0, 0, 0);
+}
+.offer_btn_a {
+position: relative;
+z-index: 0;
+overflow: hidden;
+border-radius: 0;
+box-shadow: 0 8px 6px -6px black;
+}
+.offer_btn_a:hover::before{
+transform: rotate(0deg);
+cursor: pointer;
+}
+.offer_btn_a::before {content: '';position: absolute;bottom: 0;left: 0;width: 100%;height: 100%;background: linear-gradient(45deg, #FFC107, rgba(0, 0, 0, 0));transition: 0.5s;transform: rotate(-90deg);transform-origin: bottom left;z-index: -1;}
+.features_wrapper {
+position: relative;
+z-index: 0;
+width: 100%;
+background:rgb(255, 255, 255) url('../../assets/features-img.png') fixed no-repeat bottom right;
+}
+.features_wrapper::before{
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+width: 100%;
+height: 100%;
+z-index: -1;
+background:linear-gradient(45deg, rgb(255, 239, 239), rgba(0, 0, 0, 0));
+}
+.features_wrapper h3 {
+color: rgb(168, 5, 5);
+font-family: var(--heading-font);
+}
+ul.fa_ul.list_colored {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+ul.fa_ul.list_colored li {
+list-style: none;
+}
+ul.fa_ul.list_colored li i.fa {
+color: rgb(168, 5, 5);
+margin-right: 1rem;
+}
+.clients {
+width: 100%;
+position: relative;
+z-index: 0;
+background:url('../../assets/adventure-bg.jpg');
+}
+.clients::before{
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+width: 100%;
+height: 100%;
+background: rgba(240, 248, 255, 0.48);
+z-index: -1;
+}
+.amazingOffer {
+width: 100%;
+position: relative;
+z-index: 0;
+background: url('../../assets/slider-3.jpg') fixed no-repeat center center / cover;
+}
+.amazingOffer::before{
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+width: 100%;
+height: 100%;
+background:rgba(0, 0, 0, 0) linear-gradient(to right, rgba(19, 19, 19, 0.81) 25%, rgba(76, 76, 76, 0.16) 50%, rgba(19, 19, 19, 0.81) 75%) repeat scroll 0 0 !important;
+z-index: -1;
+}
+.offer-icon {
+width: 80px;
+height: 80px;
+margin: 0 auto;
+text-align: center;
+line-height: 80px;
+font-size: 30px;
+background: rgb(168, 5, 5);
+color: rgb(255, 255, 255);
+border-radius: 100%;
+}
+.amazingOffer form {
+padding-top: 25px;
+}
+.amazingOffer form input {
+padding: .375rem .75rem;
+background: rgb(239, 238, 235);
+border: 1px solid rgb(168, 5, 5);
+border-top-right-radius: 0;
+border-bottom-right-radius: 0;
+border-right: none;
+}
+#subscribe-submit {
+background: rgb(168, 5, 5);
+color: rgb(255, 255, 255);
+border: 1px solid rgb(240, 248, 255);
+}
+.amazingOffer h4 {
+color: rgb(240, 248, 255);
+}
+.amazingOffer .btn {
+display: inline-block;
+font-weight: 400;
+color: rgb(33, 37, 41);
+text-align: center;
+vertical-align: middle;
+-webkit-user-select: none;
+user-select: none;
+background-color: rgba(0, 0, 0, 0);
+border: 1px solid rgba(0, 0, 0, 0);
+padding: .375rem .75rem;
+font-size: 1rem;
+line-height: 1.5;
+border-radius: .25rem;
+transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.Blog_Container {
+width: 100%;
+background: url('../../assets/adventure-bg.jpg');
+}
+@media screen and (min-width:320px) and (max-width: 767px) {
+.textBody h1 {
+font-size: 20px;
+margin-top: 1rem;
+}
+.headings h1 {
+margin-top: 1rem;
+}
+.amazingOffer form {
+padding-bottom: 25px;
+}
+.amazingOffer form input {
+padding: .37rem;
+}
+.picsBody {
+margin-top: 1rem;
+}
+.monthly-offer {
+padding-bottom: 1rem;
+}
+ul.fa_ul.list_colored li {
+font-size: 14px;
+}
+.form-group {
+margin-bottom: 0;
+}
+ul.footer_Social {
+margin-bottom: 1rem;
+}
+ul.fa_ul.list_colored {
+margin-bottom: 1rem;
+}
+.item {
+padding: 1rem;
+}
+.monthly_offer_text {
+text-align: justify;
+}
+.GalleryText_body {
+margin-top: 5.5rem;
+}
+}

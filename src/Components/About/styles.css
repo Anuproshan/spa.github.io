@@ -1,0 +1,11 @@
+@media screen and (min-width: 320px) and (max-width: 480px) {
+.home_section_one {
+margin-top: 5.5rem;
+}
+.form-wrap {
+padding: 0px 0 0 0;
+}
+.textBody {
+text-align: justify;
+}
+}

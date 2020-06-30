@@ -1,0 +1,19 @@
+.page_not_found {
+width: 100%;
+background: transparent;
+}
+.page_not_found .Page_Not_Found_inner {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+height: 100vh;
+}
+.page_not_found .Page_Not_Found_inner h1.display-1.text-center {
+color: aliceblue;
+font-family: auto;
+}
+.page_not_found .Page_Not_Found_inner h3.display-1.text-center {
+color: #FF5722;
+font-family: auto;
+}
